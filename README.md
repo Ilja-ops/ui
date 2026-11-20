@@ -457,3 +457,28 @@ Sinu GitHubi repositoorium peab sisaldama:
 - [TodoMVC testkeskkond](https://demo.playwright.dev/todomvc/)
 
 **Edu testimisel!**
+
+
+## Vastused küsimustele
+
+### 1. Mis vahe on manuaalsel ja automaatsel UI-testimisel?
+
+Manuaalsel testimisel kontrollib inimene veebirakendust ise.
+Automaatsel testimisel teeb programm kasutaja tegevused ja kontrollib tulemusi automaatselt.
+
+### 2. Mida kontrollib sinu esimene test?
+
+Esimene test kontrollib, kas kasutaja saab lisada uue ülesande TodoMVC rakendusse ja kas ülesanne ilmub nimekirja.
+
+### 3. Miks kasutatakse Playwrighti testides expect()?
+
+Expect() abil kontrollitakse, kas tegelik tulemus vastab oodatud tulemusele.
+
+### 4. Mida tähendab passed ja mida tähendab failed?
+
+Passed tähendab, et test õnnestus.
+Failed tähendab, et test ebaõnnestus.
+
+### 5. Kas ebaõnnestunud test tähendab alati, et veebirakenduses on viga? Selgita.
+
+Ei tähenda. Probleem võib olla ka testikoodis, vales lokaatoris või testikeskkonnas.
